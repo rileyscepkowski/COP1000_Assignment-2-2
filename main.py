@@ -6,22 +6,12 @@
 myCurrentAge = 20 # Replace with current age
 currentYear = 2025 # Replace with current year
 
-# Calculate age in 2050
-myNewAge = myCurrentAge + (2050 - currentYear)
-
-# Print results
-print("My Current Age is " + str(myCurrentAge))
-print("I will be " + str(myNewAge) + " in 2050.")
-
-
-import unittest
-
 # Function to calculate age in 2050
 def calculate_age_in_2050(current_age, current_year):
     return current_age + (2050 - current_year)
 
 # Main program logic
-if __name__ == "__main__":
+def main():
     myCurrentAge = 20  # Replace with current age
     currentYear = 2025  # Replace with current year
 
@@ -46,5 +36,8 @@ if __name__ == "__main__":
             self.assertEqual(result, 65)    # Expected result is 65
             
 if __name__ == "__main__":
+   # Run the main program logic only if not running tests
+   main()
+   
     # Run unit tests
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+     unittest.main(argv=['first-arg-is-ignored'], exit=False)
