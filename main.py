@@ -3,6 +3,9 @@
 # Output: Your current age followed by your age in 2050
 
 # Create your variables here
+import unittest
+
+
 myCurrentAge = 20 # Replace with current age
 currentYear = 2025 # Replace with current year
 
@@ -39,5 +42,5 @@ if __name__ == "__main__":
    # Run the main program logic only if not running tests
    main()
    
-    # Run unit tests
-     unittest.main(argv=['first-arg-is-ignored'], exit=False)
+   # Run unit tests
+   unittest.main(argv=['first-arg-is-ignored'], exit=False)
