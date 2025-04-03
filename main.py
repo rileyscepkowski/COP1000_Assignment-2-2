@@ -6,6 +6,9 @@
 myCurrentAge = 20 # Replace with current age
 currentYear = 2025 # Replace with current year
 
+# Calculate age in 2050
 myNewAge = myCurrentAge + (2050 - currentYear)
+
+# Print results
 print("My Current Age is " + str(myCurrentAge))
 print("I will be " + str(myNewAge) + " in 2050.")
